@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_copy"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="always"
+        android:title="@android:string/copy" />
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/action_paste"
+        android:icon="@drawable/ic_action_paste"
+        app:showAsAction="always"
+        android:title="@string/paste" />
+    <item
+        android:id="@+id/action_signout"
+        app:showAsAction="never"
+        android:title="@string/signout" />
+</menu>
